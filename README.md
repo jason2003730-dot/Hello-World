@@ -5,9 +5,9 @@ https://reindayo.top/
 
 # Table of contents
 -Logo  
--Screenshots
--Linux code
--functions
+-Screenshots  
+-Linux code  
+-functions  
 
 
 # Logo
