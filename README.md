@@ -4,10 +4,11 @@ This is a project for a simple todo list webpage
 https://reindayo.top/ 
 
 # Table of contents
--Logo  
--Screenshots  
--Linux code  
--functions  
+- [Logo](#logo)
+- [Screenshots](#screenshots)
+- [API Documentation](#api-documentation)
+- [Features](#features)
+- [Usage Examples](#usage-examples)
 
 
 # Logo
@@ -16,7 +17,13 @@ https://reindayo.top/
 # Screenshots
 <img width="2017" height="1013" alt="image" src="https://github.com/user-attachments/assets/48e898de-dca4-4497-a880-f4efb3abb0d6" />
 
-# Linux code
+# Features
+- Create, read, update, and delete tasks
+- User-specific task management
+- Mark tasks as completed
+- Clean and responsive user interface
+
+# Usage examples
 // for Linux  
 // get all tasks for all user  
 curl -X GET "https://reindayo.top/api/todos"  
