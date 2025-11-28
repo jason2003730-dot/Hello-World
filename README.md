@@ -28,10 +28,14 @@ curl -X GET "https://reindayo.top/api/<the userID>"
 curl -X GET "https://reindayo.top/api/todos/<the taskID>"  
 
 // add a Task  
-curl -X POST "https://reindayo.top/api/todos" -H "Content-Type: application/json" -d '{"title":"Task","description":"Description","completed":false,"userId":"<the userID>"}'  
+curl -X POST "https://reindayo.top/api/todos"  
+-H "Content-Type: application/json"  
+-d '{"title":"Task","description":"Description","completed":false,"userId":"<the userID>"}'  
 
 // update data for a task  
-curl -X PUT "https://reindayo.top/api/todos/<the tasksID>" -H "Content-Type: application/json" -d '{"title":"Updated Task","completed":true}'  
+curl -X PUT "https://reindayo.top/api/todos/<the tasksID>"  
+-H "Content-Type: application/json"   
+-d '{"title":"Updated Task","completed":true}'    
 
 // delete a data  
 curl -X DELETE "https://reindayo.top/api/todos/<the taskID>"  
