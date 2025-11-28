@@ -23,26 +23,26 @@ https://reindayo.top/
 - Mark tasks as completed
 - Clean and responsive user interface
 
-# Usage examples
-// for Linux  
-// get all tasks for all user  
+# Usage examples (For Linux)
+ 
+## Get all tasks for all user  
 curl -X GET "https://reindayo.top/api/todos"  
 
-// get a user's all tasks  
+## Get a user's all tasks  
 curl -X GET "https://reindayo.top/api/<the userID>"  
 
-// get a task content  
+## Get a task content  
 curl -X GET "https://reindayo.top/api/todos/<the taskID>"  
 
-// add a Task  
+## Add a Task  
 curl -X POST "https://reindayo.top/api/todos"  
 -H "Content-Type: application/json"  
 -d '{"title":"Task","description":"Description","completed":false,"userId":"<the userID>"}'  
 
-// update data for a task  
+## Update data for a task  
 curl -X PUT "https://reindayo.top/api/todos/<the tasksID>"  
 -H "Content-Type: application/json"   
 -d '{"title":"Updated Task","completed":true}'    
 
-// delete a data  
+## Delete a data  
 curl -X DELETE "https://reindayo.top/api/todos/<the taskID>"  
