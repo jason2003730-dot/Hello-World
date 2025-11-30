@@ -40,7 +40,9 @@ Click the "Register" button
 Navigate to the homepage or the /login path  
 Enter your username and password  
 Click the "Login" button  
-Upon successful login, you will be redirected to your personal todo page 
+Upon successful login, you will be redirected to your personal todo page  
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/3226c145-4358-4bc7-bec9-50caf9772ece" />
+
 
 # CRUD Web Operations Guide
 ## Create task
@@ -49,19 +51,23 @@ Click the "Task" button
 <img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/3c538f43-9fd8-4ace-93cb-205fc381cf0f" />
 
 
-# Table of contents
-- [Logo](#logo)
-- [Screenshots](#screenshots)
-- [API Documentation](#api-documentation)
-- [Features](#features)
-- [Usage Examples](#usage-examples)
+## Update
+Click the "Edit" button next to the todo item  
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/01f7f09f-4ca9-4a6a-ba0e-512a950474f0" />  
+Modify the title and description on the edit page  
+Click the "save" button to save changes  
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/a69343a7-eabd-4d3e-b8b2-9a064c62e69b" />
 
 
-# Logo
-<img width="516" height="646" alt="image" src="https://github.com/user-attachments/assets/e4f68fa1-5f56-49a4-9621-5ec988d8c653" />
+## Delete
+Click the "Delete" button next to the todo item  
+The item will be deleted immediately  
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/c08ec998-ccd9-42bd-b4f3-b167afa8a1bf" />
 
-# Screenshots
-<img width="2017" height="1013" alt="image" src="https://github.com/user-attachments/assets/48e898de-dca4-4497-a880-f4efb3abb0d6" />
+## Toggle Complete
+Click the checkbox to mark a todo as completed or not completed     ***Click Undo is not completed, click Done is completed***
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/6fce02fc-4fc3-4d85-8222-6816a2ea0c08" />
+
 
 # Features
 - Create, read, update, and delete tasks
