@@ -19,6 +19,39 @@ https://reindayo.top/
 
 # Project File Introduction
 ## server.js
+This is the main server file, providing the following functionality:
+User authentication (login, registration, logout)  
+CRUD operations for todo items (Create, Read, Update, Delete)  
+RESTful API endpoints  
+Session management and user authorization  
+Connection to MongoDB database  
+
+## package.json
+Project dependencies include:
+express: Web framework
+mongoose: MongoDB ODM
+ejs: Template engine
+cookie-session: Session management
+body-parser: Request body parsing
+
+## public
+Contains CSS stylesheets, JavaScript files, and image assets:  
+styles.css: Main stylesheet  
+script.js: Front-end JavaScript functionality
+
+
+## views
+Contains EJS template files:  
+login.ejs: Login page  
+register.ejs: Registration page  
+index.ejs: Main page displaying todo list  
+todo-edit.ejs: Todo editing page  
+Layout and partial component templates
+
+## models
+Data schemas defined via Mongoose:  
+User model: User data structure  
+Todo model: Todo item data structure
 
 
 # Operation Guides
@@ -70,10 +103,10 @@ Click the checkbox to mark a todo as completed or not completed     ***Click Und
 
 
 # Features
-- Create, read, update, and delete tasks
-- User-specific task management
-- Mark tasks as completed
-- Clean and responsive user interface
+- **Create, read, update, and delete tasks**
+- **User-specific task management**
+- **Mark tasks as completed**
+- **Clean and responsive user interface**
 
 # Usage examples (For Linux)
  
