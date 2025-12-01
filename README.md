@@ -108,23 +108,23 @@ Click the checkbox to mark a todo as completed or not completed     (**Click Und
 # Usage examples (For Linux)
  
 ## Get all tasks for all user  
-curl -X GET "https://reindayo.top/api/todos"  
+curl -X GET **https://reindayo.top/api/todos**  
 
 ## Get a user's all tasks  
-curl -X GET "https://reindayo.top/api/<the userID>"  
+curl -X GET **https://reindayo.top/api/{the userID}**  
 
 ## Get a task content  
-curl -X GET "https://reindayo.top/api/todos/<the taskID>"  
+curl -X GET  **https://reindayo.top/api/todos/{the taskID}** 
 
 ## Add a Task  
-curl -X POST "https://reindayo.top/api/todos"  
+curl -X POST **https://reindayo.top/api/todos**    
 -H "Content-Type: application/json"  
--d '{"title":"Task","description":"Description","completed":false,"userId":"<the userID>"}'  
+-d '{"title":"Task","description":"Description","completed":false,"userId":"{the userID}"}'  
 
 ## Update data for a task  
-curl -X PUT "https://reindayo.top/api/todos/<the tasksID>"  
+curl -X PUT **https://reindayo.top/api/todos/{the tasksID}**    
 -H "Content-Type: application/json"   
 -d '{"title":"Updated Task","completed":true}'    
 
 ## Delete a data  
-curl -X DELETE "https://reindayo.top/api/todos/<the taskID>"  
+curl -X DELETE **https://reindayo.top/api/todos/{the taskID}**    
