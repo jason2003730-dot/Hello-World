@@ -1,12 +1,15 @@
-# To-Do List
-This is a group project for a simple todo list webpage 
 # Project Information 
+This is a group project for a simple todo list webpage  
+
 ## Project Name
 To-do List
+
 ## Group Number
 Group 27
+
 ## Course Code
 COMP 3810SEF
+
 ## Group Member
 s1321724 Chenung Yu Hin  
 s1384971 Lee Shing Chun  
@@ -19,39 +22,39 @@ https://reindayo.top/
 
 # Project File Introduction
 ## server.js
-This is the main server file, providing the following functionality:
-User authentication (login, registration, logout)  
-CRUD operations for todo items (Create, Read, Update, Delete)  
-RESTful API endpoints  
-Session management and user authorization  
-Connection to MongoDB database  
+This is the main server file, providing the following functionality:  
+- **User authentication (login, registration, logout)**  
+- **CRUD operations for todo items (Create, Read, Update, Delete)**  
+- **RESTful API endpoints**    
+- **Session management and user authorization**  
+- **Connection to MongoDB database**  
 
 ## package.json
-Project dependencies include:
-express: Web framework
-mongoose: MongoDB ODM
-ejs: Template engine
-cookie-session: Session management
-body-parser: Request body parsing
+Project dependencies include:  
+- **express: Web framework**  
+- **mongoose: MongoDB ODM**    
+- **ejs: Template engine**    
+- **cookie-session: Session management**  
+- **body-parser: Request body parsing**  
 
 ## public
-Contains CSS stylesheets, JavaScript files, and image assets:  
-styles.css: Main stylesheet  
-script.js: Front-end JavaScript functionality
+Contains CSS stylesheets, JavaScript files:  
+- **styles.css: Main stylesheet**  
+- **script.js: Front-end JavaScript functionality**  
 
 
 ## views
 Contains EJS template files:  
-login.ejs: Login page  
-register.ejs: Registration page  
-index.ejs: Main page displaying todo list  
-todo-edit.ejs: Todo editing page  
-Layout and partial component templates
+- **login.ejs: Login page**    
+- **register.ejs: Registration page**    
+- **index.ejs: Main page displaying todo list**   
+- **todo-edit.ejs: Todo editing page**    
+- **Layout and partial component templates**  
 
 ## models
 Data schemas defined via Mongoose:  
-User model: User data structure  
-Todo model: Todo item data structure
+- **User model: User data structure**    
+- **Todo model: Todo item data structure**  
 
 
 # Operation Guides
@@ -98,7 +101,7 @@ The item will be deleted immediately
 <img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/c08ec998-ccd9-42bd-b4f3-b167afa8a1bf" />
 
 ## Toggle Complete
-Click the checkbox to mark a todo as completed or not completed     ***Click Undo is not completed, click Done is completed***
+Click the checkbox to mark a todo as completed or not completed     (**Click Undo is not completed, click Done is completed**)  
 <img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/6fce02fc-4fc3-4d85-8222-6816a2ea0c08" />
 
 
