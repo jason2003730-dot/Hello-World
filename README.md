@@ -37,12 +37,6 @@ Project dependencies include:
 - **cookie-session: Session management**  
 - **body-parser: Request body parsing**  
 
-## public
-Contains CSS stylesheets, JavaScript files:  
-- **styles.css: Main stylesheet**  
-- **script.js: Front-end JavaScript functionality**  
-
-
 ## views
 Contains EJS template files:  
 - **login.ejs: Login page**    
